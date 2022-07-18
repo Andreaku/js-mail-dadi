@@ -1,0 +1,13 @@
+:root{
+    --primary: #6f0202;
+    --secondary: #3b75b6;
+}
+
+.cs-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {background-color: var(--primary);}
+[class^="col"] {background-color: var(--secondary);}
