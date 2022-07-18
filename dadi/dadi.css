@@ -1,0 +1,29 @@
+:root{
+    --primary: #6f0202;
+    --secondary: #3b75b6;
+}
+
+body {background-color: var(--primary);}
+[class^="col"] {background-color: var(--secondary);}
+
+#user-result, #cpu-result {
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    border: 5px solid black;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 90px;
+}
+
+#game-result {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#start-game {
+    margin: 1rem auto;
+    display: block;
+    width: 50%;
+}
